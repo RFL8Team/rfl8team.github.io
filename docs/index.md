@@ -6,7 +6,7 @@ We're developers of RFL8OSX and programs
 
 - [RFL8OSX](https://rfl8team.github.io/RFL8OSX)
 
-### Our teams
+### Our team
 
 - RFLEpicGamer (rflepicgamer.github.io/RFLEpicGamer)
 
