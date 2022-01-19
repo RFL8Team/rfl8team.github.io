@@ -11,6 +11,11 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
+    <style>
+    table, th, td {
+      border:1px solid black;
+    }
+    </style>
     <body>
         <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -21,8 +26,8 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="services.html">Services</a></li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Social Media</a>
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
@@ -45,9 +50,51 @@
         <!-- Page content-->
         <div class="container">
             <div class="text-center mt-5">
-                <img src="assets/logo.png" alt="RFL8Team"></img>
-                <h1>Project organization by RFLEpicGamer for Pc, Mac, Linux, Android and RFL8OSX</h1>
-                <p class="lead">RFL8Team is managed by 1 user RFLEpicGamer and we develop apps and games for Pc, Mac, Linux, Android and RFL8OSX</p>
+
+            </div>
+            <div>
+              <table style="width:100%">
+                <tr>
+                  <th>Services</th>
+                  <th>Status</th>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="rfl8osxkiosk.html">RFL8OSX Kiosk Mode</a>
+                  </td>
+                  <td class="bg-success">Released</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="rfl8compatibility.html">RFL8Compatibility Checker</a>
+                  </td>
+                  <td class="bg-success">Ready to release (July 13 2022)</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="rfl8osx.html">RFL8OSX</a>
+                  </td>
+                  <td class="bg-danger">Halted</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="rfl8adventure.html">RFL8Adventure Party</a>
+                  </td>
+                  <td class="bg-danger">Halted</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="rfl8launcher.html">RFL8Launcher</a>
+                  </td>
+                  <td class="bg-danger">Halted</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="rfl8racing.html">RFL8Racing</a>
+                  </td>
+                  <td class="bg-info">Planned</td>
+                </tr>
+              </table>
             </div>
         </div>
         <!-- Bootstrap core JS-->
