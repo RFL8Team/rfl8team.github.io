@@ -4664,6 +4664,15 @@ textarea.form-control-lg {
   }
 }
 
+.header-logo img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+    width: 60%;
+    margin-top: 5%;
+}
+
 .accordion-button {
   position: relative;
   display: flex;
