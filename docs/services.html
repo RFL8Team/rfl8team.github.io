@@ -12,9 +12,17 @@
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <style>
-    table, th, td {
-      border:1px solid black;
-    }
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #000000;
+  text-align: left;
+  padding: 8px;
+}
     </style>
     <body>
         <!-- Responsive navbar-->
@@ -49,34 +57,83 @@
         <!-- Page content-->
         <div class="container">
             <div class="text-center mt-5">
-
+				<h1>Services</h1>
+				<h3>Here are the servers that we're currently working or not</h3>
+				<p>Click on Status icons for more information</p>
             </div>
             <div>
-              <div>
-                <img src="assets/icon_released.png" alt="Released" style="width: 2%"></img>
-                <a href="rfl8osxkiosk.html">RFL8OSX Kiosk Mode</a>
-              </div>
-              <div>
-                <img src="assets/icon_released.png" alt="Released" style="width: 2%"></img>
-                <a href="rfl8compatibility.html">RFL8Compatibility Checker</a>
-              </div>
-              <div>
-                <img src="assets/icon_developing.png" alt="In development" style="width: 2%"></img>
-                <a href="rfl8osx.html">RFL8OSX</a>
-              </div>
-              <div> 
-                <img src="assets/icon_developing.png" alt="In development" style="width: 2%"></img>
-                <a href="rfl8adventure.html">RFL8Adventure Park</a>
-              </div>
-              <div>
-                <img src="assets/icon_developing.png" alt="In development" style="width: 2%"></img>
-                <a href="rfl8launcher.html">RFL8Launcher</a>
-              </div>
-              <div>
-                <img src="assets/icon_planned.png" alt="Planned" style="width: 2%"></img>
-                <a href="rfl8racing.html">RFL8Racing</a>
-              </div>
+			 <table>
+				<tr>
+					<th>Status(Demo)</th>
+					<th>Status</th>
+					<th>Service</th>
+				</tr>
+				<tr>
+					<td>-</td>
+					<td>
+						<a href="rfl8compatibility.html">
+							<img src="assets/icon_released.png" alt="Released" style="width: 16%"></img>
+						</a>
+					</td>
+					<td>RFL8Compatibility Checker</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="rfl8osxkiosk.html">
+							<img src="assets/icon_released.png" alt="Released" style="width: 10%"></img>
+						</a>
+					</td>
+					<td>
+						<a href="rfl8osx.html">
+							<img src="assets/icon_halted.png" alt="Halted" style="width: 16%"></img>
+						</a>
+					</td>
+					<td>RFL8OSX</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="rfl8adventure.html">
+							<img src="assets/icon_halted.png" alt="Halted" style="width: 10%"></img>
+						</a>
+					</td>
+					<td>
+						<a href="rfl8adventure.html">
+							<img src="assets/icon_halted.png" alt="Halted" style="width: 16%"></img>
+						</a>
+					</td>
+					<td>RFL8Adventure Park</td>
+				</tr>
+				<tr>
+					<td>-</td>
+					<td>
+						<a href="rfl8launcher.html">
+							<img src="assets/icon_halted.png" alt="Halted" style="width: 16%"></img>
+						</a>
+					</td>
+					<td>RFL8Launcher</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="rfl8racing.html">
+							<img src="assets/icon_planned.png" alt="Planned" style="width: 10%"></img>
+						</a>
+					</td>
+					<td>
+						<a href="rfl8racing.html">
+							<img src="assets/icon_planned.png" alt="Planned" style="width: 16%"></img>
+						</a>
+					</td>
+					<td>RFL8Racing</td>
+				</tr>
+			 </table> 
             </div>
+			<div class="text-center mt-5">
+				<p><img src="assets/icon_released.png" alt="Released" style="width: 2%"></img> = Released</p>
+				<p><img src="assets/icon_releasing.png" alt="Releasing" style="width: 2%"> = Releasing</p>
+				<p><img src="assets/icon_developing.png" alt="In development" style="width: 2%"></img> = In development</p>
+				<p><img src="assets/icon_halted.png" alt="Halted" style="width: 2%"></img> = Halted</p>
+				<p><img src="assets/icon_planned.png" alt="Planned" style="width: 2%"></img> = Planned</p>
+			</div>
         </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
